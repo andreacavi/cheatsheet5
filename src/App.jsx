@@ -5,6 +5,7 @@ import UseStateEl from "./components/UseStateEl";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./components/Home";
 import NoPage from "./components/NoPage";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path="*" element={<NoPage />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }

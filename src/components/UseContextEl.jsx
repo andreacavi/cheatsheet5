@@ -1,6 +1,6 @@
 export default function useContextEl() {
   return (
-    <div>
+    <div className="hook_container">
       <h1> React Hook | useContext </h1>
       <br />
       <p>
@@ -26,7 +26,6 @@ export default function useContextEl() {
       </p>
       <br />
       <img
-        style={{ width: "500px", height: "500" }}
         src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*B7ZqFUlrPD5r5rEjptQbrA.png"
         alt="context"
       />
@@ -50,7 +49,6 @@ export default function useContextEl() {
       <br />
       <br />
       <img
-        style={{ width: "500px", height: "500" }}
         src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*o85ixSgJQZUjAv1kzYNfpg.png"
         alt="context1"
       />
@@ -64,7 +62,6 @@ export default function useContextEl() {
       </p>
       <br />
       <img
-        style={{ width: "500px", height: "500" }}
         src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*5IdsacLz7kTXZPpNTHXbkg.png"
         alt="context1"
       />
@@ -79,10 +76,10 @@ export default function useContextEl() {
         the calling component in the tree.
       </p>
       <br />
-      <p>
+      <h2>
         Follow this step-by-step YouTube guide about using react hook for
         creating dark mode on your website!
-      </p>
+      </h2>
       <br />
       <iframe
         width="560"

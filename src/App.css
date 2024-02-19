@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: beige;
+}
+
 html {
   font-size: 62, 5%;
 }
@@ -36,4 +40,43 @@ nav {
 .list-items a {
   text-decoration: none;
   color: white;
+}
+
+.hook_container {
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 900px;
+  font-size: 1.5rem;
+}
+
+img {
+  width: 600px;
+  height: 350px;
+  justify-self: center;
+}
+
+.footer {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  gap: 10px;
+}
+
+.footer > h2 {
+  display: inline-block;
+}
+
+ul {
+  text-decoration: none;
+}
+
+.footer_second {
+  display: flex;
 }
