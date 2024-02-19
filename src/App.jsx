@@ -11,18 +11,18 @@ function App() {
     <div>
       <BrowserRouter>
         <nav>
-          <ul>
-            <li>
+          <ul className="list-items">
+            <li className="nav-item">
               <Link to="/">Home</Link>
             </li>
-            <li>
-              <Link to="/UseState">Use State</Link>
+            <li className="nav-item">
+              <Link to="/UseState">useState</Link>
             </li>
-            <li>
-              <Link to="/UseContext">Use Context</Link>
+            <li className="nav-item">
+              <Link to="/UseContext">useContext</Link>
             </li>
-            <li>
-              <Link to="/UseEffect">Use Effect</Link>
+            <li className="nav-item">
+              <Link to="/UseEffect">useEffect</Link>
             </li>
           </ul>
         </nav>
