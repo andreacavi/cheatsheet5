@@ -52,3 +52,8 @@ a {
 #card3 {
   background-color: #fb88b4;
 }
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px grey;
+}

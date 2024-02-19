@@ -1,6 +1,6 @@
 export default function UsestateEl() {
   return (
-    <>
+    <div className="hook_container">
       <h1>React Hook | useState</h1>
       <p>
         The useState hook is a built-in React hook that allows functional
@@ -12,7 +12,7 @@ export default function UsestateEl() {
         package.
       </p>
       <img
-        src="https://i.ibb.co/Vq7k7jZ/import-usestate.png"
+        src="https://www.boardinfinity.com/blog/content/images/2022/11/Your-paragraph-text--43-.jpg"
         alt="Import useState code"
       ></img>
       <h2>Step 2: Using useState</h2>
@@ -22,7 +22,7 @@ export default function UsestateEl() {
         value and a function to update that value.
       </p>
       <img
-        src="https://i.ibb.co/ZY5FYKH/usestate-example.png"
+        src="https://res.cloudinary.com/practicaldev/image/fetch/s--JLn7kpSs--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/py0wwooahlgbezv8jx5j.png"
         alt="useState example code"
       ></img>
       <h2>Step 3: Initializing State</h2>
@@ -31,7 +31,7 @@ export default function UsestateEl() {
         value will be used when the component is first rendered.
       </p>
       <img
-        src="https://i.ibb.co/7pKvBRz/usestate-initial.png"
+        src="https://daqxzxzy8xq3u.cloudfront.net/wp-content/uploads/2019/09/12115024/initialize-react-state-react-usestate.png"
         alt="Initializing state with useState"
       ></img>
       <h2>Step 4: Updating State</h2>
@@ -41,7 +41,7 @@ export default function UsestateEl() {
         state value and returns the new state value.
       </p>
       <img
-        src="https://i.ibb.co/VHpL7Jr/usestate-update.png"
+        src="https://res.cloudinary.com/practicaldev/image/fetch/s--zIjjgM9b--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://res.cloudinary.com/dgo7trcso/image/upload/v1646861846/Webitech/useState.png"
         alt="Updating state with useState"
       ></img>
       <div>
@@ -56,6 +56,7 @@ export default function UsestateEl() {
           allowfullscreen
         ></iframe>
       </div>
-    </>
+      <div />
+    </div>
   );
 }
